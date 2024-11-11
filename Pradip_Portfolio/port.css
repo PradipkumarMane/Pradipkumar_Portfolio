@@ -1,0 +1,285 @@
+.container {
+  background-color: rgb(0, 0, 0);
+  transition: transform 0.3s ease;
+  box-shadow: 10px 10px 10px 10px;
+  border-radius: 5%;
+}
+
+.container:hover {
+  transform: scale(1.1);
+}
+
+
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  margin-top: 15px;
+}
+
+/* nav {
+  padding: 20px;
+} */
+figure {
+  animation: ab infinite linear 5s;
+
+}
+
+@keyframes ab {
+  from {
+    width: 5px;
+    /* transform: rotate(0); */
+  }
+
+  to {
+    /* transform:rotate(100deg); */
+    width: 100px;
+  }
+}
+
+/* self logo */
+.primg {
+  width: 200px;
+  height: 200px;
+  border: 0.80px solid red;
+  border-radius: 100%;
+  box-shadow: 5px 5px 29px 10px;
+  transition: transform 0.3s ease;
+  padding: 10px;
+}
+
+.primg:hover {
+  transform: scale(1.1);
+}
+
+/* .icon {
+  width: 30px;
+} */
+
+/* .edu1 {
+  width: 65px;
+  height: 50px;
+  
+  border: 6px solid rgb(255, 255, 255);
+  border-radius: 20%;
+
+  padding: 2px;
+  text-align: center;
+  margin: auto;
+  margin-left: 45px;
+}
+
+.edu2 {
+  width: 72px;
+  height: 50px;
+  
+  border: 6px solid rgb(255, 255, 255);
+  border-radius: 20%;
+
+  padding: 2px;
+  text-align: center;
+  margin: auto;
+  margin-left: 45px;
+}
+
+.edu3 {
+  width: 65px;
+  height: 50px;
+  
+  border: 6px solid rgb(255, 255, 255);
+  border-radius: 20%;
+  padding: 2px;
+  text-align: center;
+  margin: auto;
+  margin-left: 45px;
+} */
+
+/* .sh {
+  height: 160px;
+  margin-left: auto;
+
+} */
+
+.p {
+  color: red;
+
+}
+
+/* .skill {
+  width: 100px;
+  height: 140px;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 145px;
+
+  margin-top: 10px;
+} */
+
+/* .skilll {
+  width: 100px;
+  height: 140px;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 120px;
+
+  margin-top: 10px;
+} */
+
+.nam {
+  margin: 500%;
+  padding: 500px;
+  margin-left: 5px;
+}
+
+/* .col-xl-8 {
+  margin: auto;
+  width: 100px;
+  height: 80px;
+  margin-top: 10px;
+} */
+
+.col-xl-3 {
+  /* width: 300px;
+  height: 350px; */
+  display: flex;
+  margin: auto;
+}
+.nameform {
+  width: 320;
+  height: 320;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 10%;
+  margin-top: 8px;
+  margin-left: -5px;
+}
+.resume {
+  width: 320;
+  height: 320;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 10%;
+  text-align: center;
+  margin-top: 8px;}
+
+.contform {
+  width: 320;
+  height: 320;
+  border: 1px solid white;
+  padding: 35px;
+  border-radius: 10%;
+  margin-top: 8px;
+  text-align: center;
+  margin-left: -20px;}
+
+  /*  */
+
+#btn1 {
+  margin-left: 73px;}
+
+#btn2 {
+  margin-top: 50px;}
+
+#btn3 {
+  margin-left: 73px;}
+/* footer */
+.ft {
+  height: 100px;
+  text-align: center;
+  padding: 30px;
+}
+
+/* fdggdgdhfhfhgfdgdgdgdgdgdgfsdfgfgsfs */
+/* .carousel-inner {
+  text-align: center;
+}
+
+.skill {
+  margin: 20px;
+}
+
+.skill img {
+  max-width: 120px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.skill:hover img {
+  transform: scale(1.1);
+  /* Zoom effect on hover */
+}
+
+/* .nam {
+  color: rgb(248, 4, 4);
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Responsive Design: Adjust size of skills on smaller screens */
+/* @media (max-width: 767px) {
+  .skill img {
+    max-width: 100px;
+  }
+
+  .nam {
+    font-size: 1rem;
+  } */
+
+  .carousel{
+    height: 152px;
+    margin-top: -42px;
+    position: relative;
+  }
+
+  .carousel-inner {
+    text-align: center;
+    
+}
+.carousel-item{
+  height: 77px;
+}
+
+.col-xl-8 {
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.skill {
+    margin: 10px;
+    max-width: 120px;
+    text-align: center;
+}
+
+.skill img {
+    max-width: auto;
+    height: auto;
+    transition: transform 0.3s ease;
+    margin-top: auto;
+}
+
+.skill:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.nam {
+    color: rgb(248, 4, 4);
+    font-size: 1rem;
+    margin-top: auto;
+    font-weight: bold;
+    padding: auto;
+}
+
+/* Responsive Design: Adjust size of skills on smaller screens */
+@media (max-width: 767px) {
+    .skill img {
+        max-width: 60px;
+        height: 60px;
+    }
+
+    .nam {
+        font-size: 0.9rem;
+    }
+}
